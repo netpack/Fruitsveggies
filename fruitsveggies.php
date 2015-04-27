@@ -59,8 +59,8 @@ for the <a href="http://www.programmr.com/hired_london_hackathon" target="_blank
 	left:0;
 	width:100%;
 	height:100%;
-
-	position:fixed;
+	min-height:918px;
+	position:absolute;
 
 }
 .header{
@@ -98,9 +98,7 @@ color:#39745A;
     float:left;
 }
 #frutos_stats{
-    left: 20%;
-    position: absolute;
-    top: 320px;
+
 }
 #txt_percent{
 	float:left;
@@ -146,30 +144,27 @@ color:#39745A;
 	float: left;
 }
 #txtbase1{
+    background-color: rgba(0, 0, 0, 0.66);
     color: #fff;
     font-size: 2em;
     font-weight: bolder;
-    height: 5em;
+    left: 0;
     padding: 5%;
-    position: fixed;
     text-align: justify;
     text-shadow: 4px 2px #000000;
-    top: 55%;
+    top: 100px;
     width: 90%;
-    background-color: rgba(0, 0, 0, 0.66);
-    padding: 5%;
-    left:0;
 }
 #txtbase2{
+    background-color: rgba(0, 0, 0, 0.66);
+    color: #fff;
+    left: 0;
+    margin-top: 100px;
     padding: 5%;
-    position: fixed;
     text-align: justify;
     text-shadow: 1px 1px #000000;
     top: 80%;
-    left:0;
     width: 90%;
-    color:#FFF;
-    background-color:rgba(0,0,0,.66);
 }
 a{
 	text-decoration:none;
